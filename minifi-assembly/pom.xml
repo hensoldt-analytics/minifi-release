@@ -252,11 +252,11 @@ limitations under the License.
             <artifactId>javax.servlet.jsp.jstl-api</artifactId>
             <scope>compile</scope>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>org.eclipse.jetty.toolchain</groupId>
             <artifactId>jetty-jsp-jdt</artifactId>
             <scope>compile</scope>
-        </dependency>
+        </dependency-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
