@@ -20,7 +20,7 @@ limitations under the License.
     <parent>
         <artifactId>minifi-toolkit</artifactId>
         <groupId>org.apache.nifi.minifi</groupId>
-        <version>0.2.0</version>
+        <version>1.0.3.0.1.24-3</version>
     </parent>
     <artifactId>minifi-toolkit-assembly</artifactId>
     <packaging>pom</packaging>
