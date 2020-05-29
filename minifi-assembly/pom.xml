@@ -55,7 +55,7 @@ limitations under the License.
                                     <else>
                                         <echo message="Downloading Commons Daemon Windows binaries." />
                                         <property name="commons.daemon.file" value="commons-daemon-1.2.1-bin-windows.zip" />
-                                        <get src="https://apache.claz.org/commons/daemon/binaries/windows/${commons.daemon.file}" dest="${java.io.tmpdir}/${commons.daemon.file}" skipexisting="true" />
+                                        <get src="http://apache.claz.org/commons/daemon/binaries/windows/${commons.daemon.file}" dest="${java.io.tmpdir}/${commons.daemon.file}" skipexisting="true" />
                                         <local name="checksum.matches" />
                                         <property name="sha256sum" value="5a0b3617e2fbff4776b0b334bd57b861faef6307cb94dc2607bcf107813ada44" />
                                         <checksum file="${java.io.tmpdir}/${commons.daemon.file}" algorithm="SHA-256" property="${sha256sum}" verifyProperty="checksum.matches" />
